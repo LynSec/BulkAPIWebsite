@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WeShops"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="Home Page" />
+        <activity
+            android:name=".TransHistory"
+            android:label="History" />
+        <activity
+            android:name=".AcceptOrders"
+            android:label="accept order" />
+        <activity
+            android:name=".AddStaff"
+            android:label="Add Staff" />
+        <activity
+            android:name=".About"
+            android:label="about" />
+        <activity
+            android:name=".Books"
+            android:label="books" />
+        <activity
+            android:name=".StaffLogin"
+            android:label="staff Login" />
+        <activity
+            android:name=".Login"
+            android:label="Login Page" />
+        <activity
+            android:name=".RegisterPage"
+            android:label="Register" />
+        <activity
+            android:name=".DisplayItem"
+            android:label="Items" />
+        <activity
+            android:name=".AdminLogin"
+            android:label="Admin Login" />
+        <activity
+            android:name=".AdminHomePage"
+            android:label="Admin Home Page" />
+        <activity
+            android:name=".AddStock"
+            android:label="Add Stock Page" />
+        <activity
+            android:name=".PlaceOrder"
+            android:label="Place your Order" />
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Shop For All</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="sec">Just a sec...</string>
+    <string name="working">Working on it</string>
+    <string name="password_mismatch">password do not match</string>
+    <string name="email_not_valid">Email not valid</string>
+    <string name="check_fields">Please check the fields and type again</string>
+    <string name="no_space">Username must not contain space</string>
+    <string name="log_out">Log out</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>
